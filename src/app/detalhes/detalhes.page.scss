@@ -1,0 +1,25 @@
+ion-content {
+    --background: linear-gradient(0deg, #2467ad, #072647);
+    --color: white;
+  }
+  
+  ion-header, ion-toolbar, ion-title {
+    --background: transparent;
+    --color: black;
+    box-shadow: none;
+    --border-width: 0px;
+  }
+  
+  .center-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  ion-title {
+      --color: white;
+  }
+
+  p {
+      text-align: justify;
+  }

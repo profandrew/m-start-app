@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      M Start
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,28 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">M Start</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-card>
+    <img src="https://i.ytimg.com/vi/ELYNEng5hhQ/0.jpg" />
+    <ion-card-content>
+      <ion-card-title>
+        Mors Principium Est
+      </ion-card-title>
+      <ion-card-subtitle>
+        Black Metal
+      </ion-card-subtitle>
+      <div class="center-buttons">
+        <ion-button color="dark" [routerLink]="['/detalhes']">
+          Ver artista
+        </ion-button>
+        <ion-button color="dark" href="https://www.youtube.com/watch?v=7AXY3_JoBKA">
+          <ion-icon name="musical-notes-outline"></ion-icon>
+          Ouça agora
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
